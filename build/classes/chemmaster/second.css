@@ -1,0 +1,33 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+      -fx-background-image: url("/chemmaster/molecules-and-beakers.jpg");
+    -fx-background-size: 100% 100%;
+
+}
+.back{
+     -fx-background-color:
+         linear-gradient(#8B008B,#9400D3),
+         radial-gradient(center 50% -40%,radius 200%,#8B008B 45%,#9400D3 50%);
+    -fx-background-radius: 10,20;
+    -fx-background-insets: 0,1;
+    -fx-text-fill: black;
+}
+.student{
+    -fx-padding: 8,15,15,15;
+    -fx-background-radius: 50;
+    -fx-background-color: linear-gradient(#00BFFF,#87CEEB);
+     -fx-text-fill: black;
+    
+}
+.organicclass {
+      -fx-background-image: url("/chemmaster/organic.jpg");
+    -fx-background-size: 100% 100%;
+
+}
+.inorganic {
+      -fx-background-image: url("/chemmaster/water.jpg");
+    -fx-background-size: 100% 100%;
+}
