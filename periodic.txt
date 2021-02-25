@@ -1,0 +1,4 @@
+1 H mass:1 position:1 gas  
+2 He Mass:4 niskriyo
+3 Li mass:5 khar
+4

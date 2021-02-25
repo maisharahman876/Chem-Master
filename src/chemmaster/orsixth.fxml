@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="473.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chemmaster.OrsixthController">
+   <children>
+      <Label layoutX="362.0" layoutY="15.0" prefHeight="45.0" prefWidth="214.0" text="AVAILABLE REAGENT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="10.0" prefHeight="54.0" prefWidth="198.0" text="FINAL PRODUCT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label1" layoutX="80.0" layoutY="160.0" prefHeight="315.0" prefWidth="686.0">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></Label>
+      <Label fx:id="label2" layoutX="367.0" layoutY="102.0" prefHeight="61.0" prefWidth="178.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ff" layoutX="29.0" layoutY="70.0" prefHeight="38.0" prefWidth="178.0" promptText="add" />
+      <TextField fx:id="ini" layoutX="365.0" layoutY="69.0" prefHeight="32.0" prefWidth="188.0" promptText="add" />
+      <Button layoutX="7.0" layoutY="414.0" mnemonicParsing="false" onAction="#back" prefHeight="38.0" prefWidth="66.0" text="BACK" />
+      <Button layoutX="40.0" layoutY="138.0" mnemonicParsing="false" onAction="#update" prefHeight="25.0" prefWidth="75.0" text="update" />
+   </children>
+</AnchorPane>

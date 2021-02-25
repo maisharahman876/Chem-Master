@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="inorganic" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chemmaster.InorganicController">
+    <stylesheets>
+        <URL value="@second.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="fgg" layoutX="142.0" layoutY="70.0" mnemonicParsing="false" onAction="#naming" prefHeight="30.0" prefWidth="253.0" styleClass="back" stylesheets="@second.css" text="NAMING AND SYMBOLIZING">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="165.0" layoutY="109.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="213.0" styleClass="back" stylesheets="@second.css" text="REACTION">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="165.0" layoutY="161.0" mnemonicParsing="false" onAction="#periodic" prefHeight="30.0" prefWidth="213.0" styleClass="back" stylesheets="@second.css" text="PERIODIC TABLE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="174.0" layoutY="211.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="197.0" styleClass="back" stylesheets="@second.css" text="MATHEMATICS">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="186.0" layoutY="256.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="170.0" styleClass="back" stylesheets="@second.css" text="TITRATION">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="38.0" layoutY="348.0" mnemonicParsing="false" onAction="#back3" styleClass="student" stylesheets="@second.css" text="BACK">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
